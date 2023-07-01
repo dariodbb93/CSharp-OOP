@@ -7,7 +7,7 @@ var articolo2 = Controller.creaArticolo("Altri Libertini", DateTime.Now);
 var articolo3 = Controller.creaArticolo("Divina Commedia", DateTime.Now);
 var articolo4 = Controller.creaArticolo("Programmazione ad Oggetti", DateTime.Today);
 
-Controller.associaArticolo(dario, new List<Articolo> {articolo4});
+Controller.associaArticolo(dario, new List<Articolo> {articolo1, articolo2, articolo3, articolo4});
 Controller.printArticoli(dario);
 
 
